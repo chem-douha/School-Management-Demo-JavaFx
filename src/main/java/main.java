@@ -7,11 +7,7 @@ import javafx.stage.Stage;
 
 public class main extends Application {
     public void start(Stage primaryStage) throws Exception {
-        Parent root = FXMLLoader.load(getClass().getResource("/view/login.fxml"));
-        Scene scene = new Scene(root);
-        primaryStage.setScene(scene);
-        primaryStage.setTitle("تسجيل الدخول");
-        primaryStage.show();
+
 
 
     }
