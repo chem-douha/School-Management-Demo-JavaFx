@@ -7,7 +7,19 @@
     <groupId>com.nailKhaled</groupId>
     <artifactId>School-Management-Demo-JavaFx</artifactId>
     <version>1.0-SNAPSHOT</version>
-<dependencies>
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                    <source>8</source>
+                    <target>8</target>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+    <dependencies>
     <!-- https://mvnrepository.com/artifact/com.jfoenix/jfoenix -->
     <dependency>
         <groupId>com.jfoenix</groupId>
