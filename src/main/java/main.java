@@ -4,6 +4,7 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
 import javafx.stage.StageStyle;
+import model.DBConnection;
 
 
 public class main extends Application {
@@ -14,7 +15,7 @@ public class main extends Application {
         primaryStage.setTitle("تسجيل الدخول");
         primaryStage.initStyle(StageStyle.TRANSPARENT);
         primaryStage.show();
-
+        DBConnection.getConnection();
 
     }
 
