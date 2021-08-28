@@ -5,6 +5,7 @@ import java.net.URL;
 import java.util.ResourceBundle;
 
 import controllers.SceneController;
+import javafx.application.Platform;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.Node;
@@ -21,7 +22,7 @@ public class LoginController {
 
     @FXML
     void closeAction(MouseEvent event) {
-
+        Platform.exit();
     }
 
     @FXML
